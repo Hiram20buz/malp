@@ -1,6 +1,6 @@
 # malp
 Encrypted keylogger and screenshot into a pdf and send it via email
-## Program is divided into modules and then join into a main program .py
+## The program is divided into modules and then attached to a main .py program
 
 # Modules
 ## Keylogger
